@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Container */
+.container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  color: white;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  width: 45%;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+  background: #ff7eb3;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff4d94;
+  transform: scale(1.05);
+}
+
+/* Delete button */
+.delete {
+  background: #ff4d4d;
+}
+
+.delete:hover {
+  background: #cc0000;
+}
+
+/* Student card */
+.card {
+  background: rgba(255,255,255,0.2);
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Topper highlight */
+.topper {
+  border: 2px solid gold;
+  background: rgba(255, 215, 0, 0.3);
+}
